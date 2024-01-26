@@ -1,0 +1,47 @@
+/* Updated DisplayFields.css */
+
+.display-fields-container {
+  max-width: 1200px; /* Increased max-width for a wider container */
+  margin: 20px auto; /* Added margin for spacing */
+  padding: 20px; /* Added padding for better spacing */
+  background-color: #f4f4f4; /* Added a background color */
+  border-radius: 10px; /* Added border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+.fields-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #3498db; /* Changed border color */
+  background-color: #fff; /* Set background color to white */
+  border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+.fields-table th, .fields-table td {
+  border: 1px solid #3498db;
+  padding: 12px;
+  text-align: center; /* Centered text */
+}
+
+.fields-table th {
+  background-color: #2980b9; /* Changed header background color */
+  color: #fff; /* Set text color to white */
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e74c3c; /* Changed button color */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px; /* Wider button */
+}
+
+.reset-button:hover {
+  background-color: #c0392b; /* Darker color on hover */
+}
+
+  
